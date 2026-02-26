@@ -1,5 +1,5 @@
 # Task 1: Outlier Detection for Houston Weather Dataset (HW2023)
-## COSC6335 Spring 2026 — Dr. Eick & Janet Anagli
+## COSC6335 Spring 2026 
 
 ---
 
@@ -16,16 +16,15 @@ pip install numpy pandas matplotlib seaborn scikit-learn torch
 ## How to Run
 
 1. Place `HW2023.csv` in the **same folder** as the notebook.
-2. Rename the notebook: `Task1-Firstname-Lastname.ipynb`
-3. Open and run all cells top-to-bottom:
+2. Open and run all cells top-to-bottom:
 
 ```bash
-jupyter notebook Task1-Firstname-Lastname.ipynb
+jupyter notebook "File name".ipynb
 ```
 
 Or run as a script:
 ```bash
-jupyter nbconvert --to notebook --execute Task1-Firstname-Lastname.ipynb
+jupyter nbconvert --to notebook --execute "File name.ipynb
 ```
 
 ---
@@ -79,10 +78,3 @@ jupyter nbconvert --to notebook --execute Task1-Firstname-Lastname.ipynb
 
 ---
 
-## Submission Checklist
-
-- [ ] Rename notebook to `Task1-Firstname-Lastname.ipynb`
-- [ ] Rename report to `Task1-Report-Firstname-Lastname.pdf`
-- [ ] Create folder `COSC6335S26-Task1-Firstname-Lastname/`
-- [ ] Add notebook, README.md, and PDF report to folder
-- [ ] Zip and upload to MS Teams Assignment tab before **Feb 26, 2026**
